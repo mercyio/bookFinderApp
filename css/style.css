@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Paragraphe an header Ellipsis */
+p, h5{
+  display: block;
+  display: -webkit-box;
+  max-width: 100%;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+h5{
+  -webkit-line-clamp: 2;
+}
+
+p{
+ -webkit-line-clamp: 4;
+}
+
+
+#loading img, #loading-bottom img{
+  height: 32px;
+}
